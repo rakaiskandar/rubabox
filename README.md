@@ -87,15 +87,17 @@ Start the server
 ![Login Page](public/asset/img/login-page.jpg)
 
 * Multiple Authentication (Autentikasi sebagai Admin atau User)
+
   Rubabox memisahkan antara penggunaan aplikasi sebagai Admin dan User. Hal ini bertujuan untuk mengefiesiensi pekerjaan dan menjaga setiap component yang berada di sistem dengan baik.
 
   sebagai Admin:
   ![Admin](public/asset/img/admin.jpg)
 
-  sebagai User
+  sebagai User:
   ![User](public/asset/img/user.jpg)
 
 * Master Data (Admin, User, Subsi, Employee)
+
   Master Data merupakan fitur berupa data utama yang harus dibuat agar bisa melakukan sesuatu pada Rubabox, data tersebut digunakan sebagai acuan informasi untuk melakukan hal seperti input, login, edit dan hapus. Fitur master data ini terdiri atas beberapa tabel atau data diantaranya:
 
     1. Admin
@@ -119,6 +121,7 @@ Start the server
        ![Employee Page](public/asset/img/employee-page.jpg)
 
 * Document (Upload dan Trash)
+
 Document merupakan fitur pengumpulan, penyimpanan dan pengelolaan informasi dalam bentuk cetakan atau gambar elektronik yang dapat dipakai sebagai bukti atau keterangan. Di dalam document juga terdapat dua fitur yaitu:
 
     1. Upload
