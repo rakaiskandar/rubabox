@@ -1,0 +1,492 @@
+/* -------- Font Theme -------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+
+/* -------- Root -------- */
+:root{
+  --main-color: #68A7AD;
+  --main-color-2: #006778;
+  --first-color: Black;
+  --second-color: #FFF;
+  --font-family: "Poppins"
+}
+
+/* -------- Navbar Section -------- */
+.nav-link,
+.btn {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a.nav-link{
+  color: var(--first-color);
+}
+
+a.btn:hover{
+  color: var(--second-color);
+}
+
+.lgn a{
+  background-color: var(--main-color);
+  width: 100px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+/* -------- Home Section -------- */
+.text1 {
+  position: absolute;
+  width: 511px;
+  height: 231px;
+  left: 120px;
+  top: 230px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--first-color);
+}
+
+.text2 {
+  position: absolute;
+  width: 588px;
+  height: 73px;
+  left: 120px;
+  top: 340px;
+  font-family: var(--font-family);
+  font-weight: 200;
+  font-size: 24px;
+  color: var(--first-color);
+}
+
+.flatline {
+  padding-left: 650px;
+}
+
+.docs{
+  background-color: var(--main-color);
+  top: 430px;
+  left: 120px;
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  color: var(--first-color);
+  font-family: var(--font-family);
+  font-weight: 600;
+  padding-left: 32px;
+  padding-top: 13px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a.docs:hover{
+  color: var(--second-color);
+  background-color: var(--main-color-2);
+}
+
+/* -------- About Section -------- */
+#about .text1 {
+  width: 112px;
+  height: 32px;
+  left: 101px;
+  top: 150px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#about .text2 {
+  width: 430px;
+  height: 61px;
+  left: 101px;
+  top: 175px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#about .text3 {
+  position: absolute;
+  width: 273px;
+  height: 37px;
+  left: 625px;
+  top: 325px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#about .text4 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 625px;
+  top: 360px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#about .text5 {
+  position: absolute;
+  width: 127px;
+  height: 37px;
+  left: 230px;
+  top: 530px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#about .text6 {
+  position: absolute;
+  width: 555px;
+  height: 45px;
+  left: 230px;
+  top: 565px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#about .text5,
+.text6 {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+a.text5{
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.ilusAbout img {
+  position: absolute;
+  width: 330px;
+  height: 350px;
+  left: 175px;
+  top: 200px;
+}
+
+.ilusAbout2 img {
+  width: 520px;
+  height: 450px;
+  margin-left: 785px;
+  margin-top: 270px;
+  margin-bottom: 100px;
+}
+
+/* -------- Contact Section -------- */
+#contact .text1 {
+  width: 143px;
+  height: 34px;
+  left: 89px;
+  top: 150px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+#contact .text2 {
+  width: 380px;
+  height: 100px;
+  left: 89px;
+  top: 175px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.ig {
+  position: absolute;
+  width: 320px;
+  height: 250px;
+  left: 90.41px;
+  top: 325px;
+  background: var(--main-color);
+  border-radius: 20px;
+}
+
+.ig img {
+  position: absolute;
+  left: 105px;
+  top: 40px;
+}
+
+.ig a {
+  position: absolute;
+  left: 60px;
+  top: 160px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+
+.ig a:hover {
+  color: var(--second-color);
+}
+
+.yahoo {
+  position: absolute;
+  width: 435.25px;
+  height: 250px;
+  left: 459px;
+  top: 325px;
+  background: var(--main-color);
+  border-radius: 18px;
+}
+
+.yahoo img {
+  position: absolute;
+  left: 165px;
+  top: 20px;
+}
+
+.yahoo a {
+  position: absolute;
+  left: 45px;
+  top: 160px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  text-decoration: none;
+  color: var(--first-color);
+  transition: 0.2s;
+}
+
+.yahoo a:hover {
+  color: var(--second-color);
+}
+
+.fb {
+  position: absolute;
+  width: 320px;
+  height: 250px;
+  left: 940px;
+  top: 325px;
+  background: var(--main-color);
+  border-radius: 20px;
+}
+
+.fb img {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.fb a {
+  position: absolute;
+  left: 60px;
+  top: 160px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  text-decoration: none;
+  color: var(--first-color);
+  transition: 0.2s;
+}
+
+.fb a:hover {
+  color: var(--second-color);
+}
+
+/* -------- FAQ Section -------- */
+#FAQ .text1 {
+  width: 51px;
+  height: 34px;
+  left: 83px;
+  top: 150px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 21px;
+}
+
+#FAQ .text2 {
+  width: 599px;
+  height: 179px;
+  left: 83px;
+  top: 175px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+#FAQ {
+  padding-top: 330px;
+}
+
+.accordion {
+  padding-left: 100px;
+  width: 1248px;
+  height: 362px;
+}
+
+.accordion-button {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* -------- Footer Section -------- */
+.footer img {
+  position: absolute;
+  padding-left: 70px;
+  width: 243px;
+  height: 68px;
+}
+
+.navigation .text1 {
+  width: 146px;
+  height: 40px;
+  left: 525px;
+  top: 750px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navigation .text2 {
+  width: 97px;
+  height: 28px;
+  left: 510px;
+  top: 775px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.navigation .text3 {
+  position: absolute;
+  width: 97px;
+  height: 28px;
+  left: 510px;
+  top: 805px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.navigation .text4 {
+  position: absolute;
+  width: 114px;
+  height: 28px;
+  left: 510px;
+  top: 835px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.navigation .text5 {
+  position: absolute;
+  width: 72px;
+  height: 28px;
+  left: 510px;
+  top: 855px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.email .text1 {
+  width: 301px;
+  height: 40px;
+  left: 811px;
+  top: 750px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.email .text2 {
+  width: 412px;
+  height: 30px;
+  left: 811px;
+  top: 775px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.address .text1 {
+  width: 301px;
+  height: 40px;
+  left: 811px;
+  top: 810px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.address .text2 {
+  width: 447px;
+  height: 37px;
+  left: 811px;
+  top: 835px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.copyright .text1 {
+  width: 270px;
+  height: 40px;
+  left: 560px;
+  top: 1170px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.smkn img {
+  position: absolute;
+  padding-left: 1185px;
+}
+
+.rupbasan img {
+  position: absolute;
+  padding-left: 1090px;
+}
+
+svg {
+  position: absolute;
+}
