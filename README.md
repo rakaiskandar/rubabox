@@ -99,18 +99,22 @@ Start the server
   Master Data merupakan fitur berupa data utama yang harus dibuat agar bisa melakukan sesuatu pada Rubabox, data tersebut digunakan sebagai acuan informasi untuk melakukan hal seperti input, login, edit dan hapus. Fitur master data ini terdiri atas beberapa tabel atau data diantaranya:
 
     1. Admin
+
        Master Data Admin berisi data berupa akun Admin yang bisa digunakan untuk mengakses Rubabox. Hanya Admin saja yang bisa melihat data, menambah data, mengubah data dan menghapus data pada Master Data Admin.
        ![Admin Page](public/asset/img/admin-page.jpg)
 
     2. User
+
        Master Data User berisi data berupa akun User yang bisa digunakan untuk mengakses Rubabox. Data User ini berkaitan dengan Master Data Employee karena User merupakan pegawai Rupbasan Kelas 1 Bandung, sehingga mempermudah tracking pada User. Hanya Admin saja yang bisa melihat data, menambah data, mengubah data dan menghapus data pada Master Data User. 
        ![User Page](public/asset/img/user-page.jpg)
 
     3. Subsi
+
        Master Data Subsi berisi data yang berisi Subsi atau Divisi yang berada di Rupbasan Kelas 1 Bandung. Dapat dikatakan Master Data Subsi merupakan pusat informasi dari setiap fitur yang berada pada Rubabox. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Subsi.
        ![Subsi Page](public/asset/img/subsi-page.jpg)
 
     4. Employee
+
        Master Data Employee berisi data yang berisi pegawai yang berada di Rupbasan Kelas 1 Bandung. Data pegawai ini juga bagian yang tidak kalah penting dari data subsi yang menjadi acuan informasi dari Master Data User. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Employee. 
        ![Employee Page](public/asset/img/employee-page.jpg)
 
@@ -118,13 +122,16 @@ Start the server
 Document merupakan fitur pengumpulan, penyimpanan dan pengelolaan informasi dalam bentuk cetakan atau gambar elektronik yang dapat dipakai sebagai bukti atau keterangan. Di dalam document juga terdapat dua fitur yaitu:
 
     1. Upload
+
        Upload merupakan fitur utama pada Rubabox. Di Rubabox kamu tidak hanya dapat mengupload file saja, tetapi bisa melihat atau mendownload file yang sudah diupload. Tidak hanya itu saja kamu bisa mencari file yang dibutuhkan dengan hanya mengetik nama file atau mencari berdasarkan tanggal uploadnya. Rubabox mempermudah itu semua. Baik Admin maupun User, pada bagian fitur Upload dapat melihat data, menambah data, mengubah data, dan menghapus data.
        ![Upload Page](public/asset/img/upload-page.jpg)
 
     2. Trash
+
        Trash adalah fitur penyimpanan sementara dari penghapusan file pada fitur Upload. Pada saat menghapus data file, file tersebut tidak langsung terhapus di database tetapi disimpan di Trash sebagain penyimpanan. Baik Admin maupun User bisa mengembalikan file yang sudah dihapus sementara dan menghapus secara permanen di fitur trash ini. 
        ![Trash Page](public/asset/img/trash-page.jpg)
 
 * History
+
 History merupakan fitur untuk tracking pengguna dalam setiap aktivitas fitur yang digunakan baik aktivitas Admin maupun User. Fitur ini merupakan fitur khusus yang diberlakukan untuk Admin.
 ![History Page](public/asset/img/history-page.jpg)
