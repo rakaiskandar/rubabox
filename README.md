@@ -122,7 +122,7 @@ Start the server
 
 * Document (Upload dan Trash)
 
-Document merupakan fitur pengumpulan, penyimpanan dan pengelolaan informasi dalam bentuk cetakan atau gambar elektronik yang dapat dipakai sebagai bukti atau keterangan. Di dalam document juga terdapat dua fitur yaitu:
+  Document merupakan fitur pengumpulan, penyimpanan dan pengelolaan informasi dalam bentuk cetakan atau gambar elektronik yang dapat dipakai sebagai bukti atau keterangan. Di dalam document juga terdapat dua fitur yaitu:
 
     1. Upload
 
@@ -136,5 +136,5 @@ Document merupakan fitur pengumpulan, penyimpanan dan pengelolaan informasi dala
 
 * History
 
-History merupakan fitur untuk tracking pengguna dalam setiap aktivitas fitur yang digunakan baik aktivitas Admin maupun User. Fitur ini merupakan fitur khusus yang diberlakukan untuk Admin.
-![History Page](public/asset/img/history-page.jpg)
+  History merupakan fitur untuk tracking pengguna dalam setiap aktivitas fitur yang digunakan baik aktivitas Admin maupun User. Fitur ini merupakan fitur khusus yang diberlakukan untuk Admin.
+  ![History Page](public/asset/img/history-page.jpg)
