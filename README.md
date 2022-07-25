@@ -1,9 +1,7 @@
 
 # Rubabox - Manage All File in One System
 
-<center>
     ![Logo](public/asset/img/logo/logo_type.svg)
-</center>
     
 Rubabox adalah sebuah sistem penyimpanan file berbasis aplikasi web untuk Rupbasan Kelas 1 Bandung dengan beragam fitur yang mudah digunakan dan efisien. Rubabox memungkinkan kita menyimpan atau mengupload file di server melalui koneksi database. Tujuan dibuatnya Rubabox adalah untuk mengurangi penggunaan kertas untuk arsip dan mempercepat efisiensi pekerjaan yang berada di Rupbasan Kelas 1 Bandung.
 
