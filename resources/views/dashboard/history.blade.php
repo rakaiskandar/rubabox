@@ -38,7 +38,7 @@
                         <thead>
                             <tr>
                                 <th scope="col">No</th>
-                                <th>Name</th>
+                                <th>Username</th>
                                 <th>Position</th>
                                 <th>Section</th>
                                 <th>Activity</th>
