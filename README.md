@@ -17,7 +17,7 @@ Rubabox adalah sebuah sistem penyimpanan file berbasis aplikasi web untuk Rupbas
 
 Clone the project
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/rakaiskandar/rubabox.git
 ```
 **Step 2:**
 
@@ -42,17 +42,26 @@ Copy .env.example for get .env file
 ```bash
   cp .env.example .env
 ```
-**Step 5:**
+**Step 5**
+
+Generate key app
+```bash
+  php artisan key:generate
+```
+**Step 6:**
 
 Run or start XAMPP 
 
-**Step 6:**
+**Step 7:**
 
 Start the server
 ```bash
   php artisan serve
 ```
-
+or if you want run locally but can access in other device
+```bash
+  php artisan serve --host 0.0.0.0
+```
 
 ## Tech Stack
 
