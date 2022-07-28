@@ -121,12 +121,12 @@ or if you want run locally but can access in other device
 
     3. Subsi
 
-       Master Data Subsi berisi data yang berisi Subsi atau Divisi yang berada di Rupbasan Kelas 1 Bandung. Dapat dikatakan Master Data Subsi merupakan pusat informasi dari setiap fitur yang berada pada Rubabox. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Subsi.
+       Master Data Subsi berisi data Subsi atau Divisi yang berada di Rupbasan Kelas 1 Bandung. Dapat dikatakan Master Data Subsi merupakan pusat informasi dari setiap fitur yang berada pada Rubabox. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Subsi.
        ![Subsi Page](public/asset/img/subsi-page.jpg)
 
     4. Employee
 
-       Master Data Employee berisi data yang berisi pegawai yang berada di Rupbasan Kelas 1 Bandung. Data pegawai ini juga bagian yang tidak kalah penting dari data subsi yang menjadi acuan informasi dari Master Data User. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Employee. 
+       Master Data Employee berisi data pegawai yang berada di Rupbasan Kelas 1 Bandung. Data pegawai ini juga bagian yang tidak kalah penting dari data subsi yang menjadi acuan informasi dari Master Data User. Hanya Admin saja yang bisa menambah data, mengubah data dan menghapus data pada Master Data Employee. 
        ![Employee Page](public/asset/img/employee-page.jpg)
 
 * Document (Upload dan Trash)
@@ -140,7 +140,7 @@ or if you want run locally but can access in other device
 
     2. Trash
 
-       Trash adalah fitur penyimpanan sementara dari penghapusan file pada fitur Upload. Pada saat menghapus data file, file tersebut tidak langsung terhapus di database tetapi disimpan di Trash sebagain penyimpanan. Baik Admin maupun User bisa mengembalikan file yang sudah dihapus sementara dan menghapus secara permanen di fitur trash ini. 
+       Trash adalah fitur penyimpanan sementara dari penghapusan file pada fitur Upload. Pada saat menghapus data file, file tersebut tidak langsung terhapus di database tetapi disimpan di Trash sebagai penyimpanan. Baik Admin maupun User bisa mengembalikan file yang sudah dihapus sementara dan menghapus secara permanen di fitur trash ini. 
        ![Trash Page](public/asset/img/trash-page.jpg)
 
 * History
